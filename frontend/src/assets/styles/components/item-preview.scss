@@ -1,0 +1,22 @@
+.item-preview {
+    margin: 0 1rem 1rem;
+    border: 1px solid rgba(134, 131, 131, 0.349);
+    cursor: pointer;
+    // flex-basis: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 0.5rem;
+
+    img {
+        height: 80px;
+        width: 80px;
+        border-radius: 20px;
+    }
+
+    &.selected{
+        background-color:#ff63e7;
+    }
+}

@@ -1,0 +1,37 @@
+.ask {
+    .progress {
+        width: 50vw;
+        position: fixed;
+        bottom: 3rem;
+        left: 25%;
+    }
+
+    p {
+        text-align: center;
+        margin: 3rem 0 0 0;
+    }
+
+    button {
+        padding: 10px;
+        border: 1px solid #ff63e7;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .loader {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+
+        *{
+            margin: 1rem;
+        }
+    }
+}
+
+.step {
+    i {
+        margin: 0 2rem !important;
+    }
+}

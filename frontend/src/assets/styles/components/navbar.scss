@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+
+    a {
+        margin: 0 10px;
+        color: $clr1;
+    }
+
+    .social-icons {
+        display: flex;
+        * {
+            margin: 0 10px;
+            height: 1.2rem;
+            color: $clr1;
+        }
+    }
+
+    .active {
+        text-decoration: solid;
+        // font-weight: 800;
+        color: black;
+    }
+
+    .brand {
+        font-size: 1rem;
+        color:#ff63e7;
+        &:hover {
+            color: black;
+        }
+    }
+
+    .phone {
+        margin-inline-start: 2rem;
+        *{
+            margin-inline-start: 1rem;
+        }
+
+        .phone-icon{
+            position: absolute;
+            top: 1rem; 
+        }
+    }
+}
+
+
